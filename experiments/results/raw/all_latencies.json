@@ -1,0 +1,3638 @@
+{
+  "W1_email": {
+    "on": [
+      5058.595,
+      4669.654,
+      4682.551,
+      4727.614,
+      5271.695,
+      5260.078,
+      5130.094,
+      5170.651,
+      5155.364,
+      5145.471,
+      5112.591,
+      5138.855,
+      5153.023,
+      5130.837,
+      5146.161,
+      5189.249,
+      5162.894,
+      5193.278,
+      5221.288,
+      5232.629,
+      5307.467,
+      5357.112,
+      5327.521,
+      5209.845,
+      5277.469,
+      5190.954,
+      5143.202,
+      5178.181,
+      5110.777,
+      5130.021,
+      5123.359,
+      5150.324,
+      5118.133,
+      5167.029,
+      5090.604,
+      5207.213,
+      5151.932,
+      5130.641,
+      5107.989,
+      5121.904,
+      5107.751,
+      5104.229,
+      5129.376,
+      5205.643,
+      5103.431,
+      5126.015,
+      5146.684,
+      5137.11,
+      5111.321,
+      5117.326,
+      5187.203,
+      5131.01,
+      5108.489,
+      5145.981,
+      5094.637,
+      5157.958,
+      5123.332,
+      5108.413,
+      5160.855,
+      5134.433,
+      5181.179,
+      5095.221,
+      5123.476,
+      5114.035,
+      5117.129,
+      5128.496,
+      5140.813,
+      5136.027,
+      5179.072,
+      5114.638,
+      5134.15,
+      5132.044,
+      5098.296,
+      5130.905,
+      5141.369,
+      5118.864,
+      5113.462,
+      5153.716,
+      5139.543,
+      5084.645,
+      5125.007,
+      5100.997,
+      5139.069,
+      5147.267,
+      5132.609,
+      5181.555,
+      5179.113,
+      5175.062,
+      5124.905,
+      5135.053,
+      5104.192,
+      5120.648,
+      5095.589,
+      5089.453,
+      5144.99,
+      5177.775,
+      5171.515,
+      5130.101,
+      5115.41,
+      5120.816
+    ],
+    "off": [
+      5104.097,
+      5152.331,
+      5134.811,
+      5140.924,
+      5173.351,
+      5170.138,
+      5164.413,
+      5164.248,
+      5200.985,
+      5168.089,
+      5130.926,
+      5161.333,
+      5110.246,
+      5210.768,
+      5117.276,
+      5129.907,
+      5148.702,
+      5146.401,
+      5155.638,
+      5168.728,
+      5184.146,
+      5147.774,
+      5134.938,
+      5128.392,
+      5110.416,
+      5168.879,
+      5136.661,
+      5140.453,
+      5139.384,
+      5143.58,
+      5157.681,
+      5149.035,
+      5176.931,
+      5094.959,
+      5131.7,
+      5140.016,
+      5177.431,
+      5139.625,
+      5151.22,
+      5124.869,
+      5149.361,
+      5112.738,
+      5175.033,
+      5169.258,
+      5104.193,
+      5148.79,
+      5125.082,
+      5130.417,
+      5202.283,
+      5146.221,
+      5120.963,
+      5151.753,
+      5123.008,
+      5161.718,
+      5159.482,
+      5120.138,
+      5123.259,
+      5147.275,
+      5143.954,
+      5125.513,
+      5240.292,
+      5182.02,
+      5157.116,
+      5148.643,
+      5091.119,
+      5116.71,
+      5090.912,
+      5104.913,
+      5116.582,
+      5123.677,
+      5101.662,
+      5137.627,
+      5104.282,
+      5159.972,
+      5130.608,
+      5168.926,
+      5112.89,
+      5126.038,
+      5114.737,
+      5144.368,
+      5124.839,
+      5132.8,
+      5122.533,
+      5169.164,
+      5127.034,
+      5136.353,
+      5166.032,
+      5122.971,
+      5139.525,
+      5132.344,
+      5135.351,
+      5169.948,
+      5160.997,
+      5130.676,
+      5144.901,
+      5125.645,
+      5131.553,
+      5130.202,
+      5107.828,
+      5091.749
+    ],
+    "components_on": [
+      {
+        "interception_ms": 0.016,
+        "serialisation_ms": 0.0428,
+        "io_ms": 0.6124,
+        "total_ms": 0.6712,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0131,
+        "serialisation_ms": 0.0334,
+        "io_ms": 0.0452,
+        "total_ms": 0.0917,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0103,
+        "serialisation_ms": 0.027,
+        "io_ms": 0.032,
+        "total_ms": 0.0692,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0103,
+        "serialisation_ms": 0.0284,
+        "io_ms": 0.0326,
+        "total_ms": 0.0713,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0307,
+        "io_ms": 0.0349,
+        "total_ms": 0.0776,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0126,
+        "serialisation_ms": 0.0343,
+        "io_ms": 0.0391,
+        "total_ms": 0.0861,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0131,
+        "serialisation_ms": 0.0317,
+        "io_ms": 0.0343,
+        "total_ms": 0.0792,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0305,
+        "io_ms": 0.0351,
+        "total_ms": 0.0771,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0359,
+        "total_ms": 0.0792,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0368,
+        "total_ms": 0.0781,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0304,
+        "io_ms": 0.0365,
+        "total_ms": 0.079,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0299,
+        "io_ms": 0.033,
+        "total_ms": 0.074,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0303,
+        "io_ms": 0.0353,
+        "total_ms": 0.0776,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0297,
+        "io_ms": 0.0351,
+        "total_ms": 0.077,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.03,
+        "io_ms": 0.0365,
+        "total_ms": 0.0788,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0305,
+        "io_ms": 0.0354,
+        "total_ms": 0.0776,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0126,
+        "serialisation_ms": 0.0311,
+        "io_ms": 0.0358,
+        "total_ms": 0.0795,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0308,
+        "io_ms": 0.0349,
+        "total_ms": 0.0775,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0364,
+        "total_ms": 0.0786,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.031,
+        "io_ms": 0.0378,
+        "total_ms": 0.0813,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0308,
+        "io_ms": 0.0359,
+        "total_ms": 0.0789,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0351,
+        "io_ms": 0.0428,
+        "total_ms": 0.0915,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0136,
+        "serialisation_ms": 0.0346,
+        "io_ms": 0.0426,
+        "total_ms": 0.0907,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0305,
+        "io_ms": 0.0437,
+        "total_ms": 0.0862,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0309,
+        "io_ms": 0.0374,
+        "total_ms": 0.0803,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0295,
+        "io_ms": 0.0332,
+        "total_ms": 0.074,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0361,
+        "total_ms": 0.0801,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0351,
+        "total_ms": 0.079,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.034,
+        "io_ms": 0.0418,
+        "total_ms": 0.0893,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0138,
+        "serialisation_ms": 0.0353,
+        "io_ms": 0.4639,
+        "total_ms": 0.513,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0352,
+        "total_ms": 0.0786,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0375,
+        "total_ms": 0.0797,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0293,
+        "io_ms": 0.0349,
+        "total_ms": 0.0753,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0304,
+        "io_ms": 0.038,
+        "total_ms": 0.0802,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0376,
+        "total_ms": 0.0797,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0285,
+        "io_ms": 0.0375,
+        "total_ms": 0.0771,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0129,
+        "serialisation_ms": 0.0308,
+        "io_ms": 0.0382,
+        "total_ms": 0.0819,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0299,
+        "io_ms": 0.0373,
+        "total_ms": 0.0789,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0386,
+        "total_ms": 0.0825,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0305,
+        "io_ms": 0.037,
+        "total_ms": 0.0795,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0303,
+        "io_ms": 0.0361,
+        "total_ms": 0.0776,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0296,
+        "io_ms": 0.0349,
+        "total_ms": 0.0756,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.03,
+        "io_ms": 0.4873,
+        "total_ms": 0.5286,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0133,
+        "serialisation_ms": 0.034,
+        "io_ms": 0.0417,
+        "total_ms": 0.0891,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.031,
+        "io_ms": 0.0362,
+        "total_ms": 0.0792,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0297,
+        "io_ms": 0.038,
+        "total_ms": 0.079,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0332,
+        "io_ms": 0.0428,
+        "total_ms": 0.0886,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0134,
+        "serialisation_ms": 0.0359,
+        "io_ms": 0.043,
+        "total_ms": 0.0923,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0294,
+        "io_ms": 0.0359,
+        "total_ms": 0.0769,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0294,
+        "io_ms": 0.0379,
+        "total_ms": 0.0787,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0365,
+        "total_ms": 0.0786,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0419,
+        "total_ms": 0.0846,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.0307,
+        "io_ms": 0.0385,
+        "total_ms": 0.0816,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.0388,
+        "total_ms": 0.0809,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0292,
+        "io_ms": 0.0343,
+        "total_ms": 0.0751,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0313,
+        "io_ms": 0.0354,
+        "total_ms": 0.0786,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0137,
+        "serialisation_ms": 0.0353,
+        "io_ms": 0.4833,
+        "total_ms": 0.5323,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0298,
+        "io_ms": 0.0406,
+        "total_ms": 0.0823,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.0382,
+        "total_ms": 0.0803,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0137,
+        "serialisation_ms": 0.0369,
+        "io_ms": 0.4825,
+        "total_ms": 0.5332,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0298,
+        "io_ms": 0.0334,
+        "total_ms": 0.0745,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.0387,
+        "total_ms": 0.0811,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0366,
+        "total_ms": 0.0785,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0307,
+        "io_ms": 0.037,
+        "total_ms": 0.08,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0341,
+        "io_ms": 0.0369,
+        "total_ms": 0.0824,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0298,
+        "io_ms": 0.0378,
+        "total_ms": 0.0797,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0289,
+        "io_ms": 0.0341,
+        "total_ms": 0.0752,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0292,
+        "io_ms": 0.0378,
+        "total_ms": 0.0792,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0128,
+        "serialisation_ms": 0.0313,
+        "io_ms": 0.0374,
+        "total_ms": 0.0815,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0288,
+        "io_ms": 0.0343,
+        "total_ms": 0.0748,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0378,
+        "total_ms": 0.0807,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0292,
+        "io_ms": 0.0393,
+        "total_ms": 0.08,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0299,
+        "io_ms": 0.0366,
+        "total_ms": 0.0782,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0303,
+        "io_ms": 0.0354,
+        "total_ms": 0.0777,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0146,
+        "serialisation_ms": 0.0346,
+        "io_ms": 0.0429,
+        "total_ms": 0.0921,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.03,
+        "io_ms": 0.0343,
+        "total_ms": 0.0754,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0154,
+        "serialisation_ms": 0.0406,
+        "io_ms": 0.0507,
+        "total_ms": 0.1066,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0351,
+        "io_ms": 0.0466,
+        "total_ms": 0.0951,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0294,
+        "io_ms": 0.034,
+        "total_ms": 0.0744,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0342,
+        "io_ms": 0.042,
+        "total_ms": 0.0893,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.014,
+        "serialisation_ms": 0.036,
+        "io_ms": 0.4528,
+        "total_ms": 0.5028,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0387,
+        "io_ms": 0.4922,
+        "total_ms": 0.5442,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0127,
+        "serialisation_ms": 0.0329,
+        "io_ms": 0.0419,
+        "total_ms": 0.0874,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.0398,
+        "total_ms": 0.0814,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0131,
+        "serialisation_ms": 0.0342,
+        "io_ms": 0.0424,
+        "total_ms": 0.0896,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.03,
+        "io_ms": 0.0348,
+        "total_ms": 0.0763,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.0328,
+        "io_ms": 0.0372,
+        "total_ms": 0.0824,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0305,
+        "io_ms": 0.5067,
+        "total_ms": 0.549,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0146,
+        "serialisation_ms": 0.035,
+        "io_ms": 0.3959,
+        "total_ms": 0.4455,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0311,
+        "io_ms": 0.4547,
+        "total_ms": 0.4988,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0298,
+        "io_ms": 0.4856,
+        "total_ms": 0.5271,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.036,
+        "total_ms": 0.0778,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0133,
+        "serialisation_ms": 0.0343,
+        "io_ms": 0.0427,
+        "total_ms": 0.0903,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0399,
+        "io_ms": 0.0484,
+        "total_ms": 0.1016,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.033,
+        "io_ms": 0.0407,
+        "total_ms": 0.0872,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0369,
+        "total_ms": 0.0794,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0298,
+        "io_ms": 0.0358,
+        "total_ms": 0.077,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0286,
+        "io_ms": 0.0334,
+        "total_ms": 0.073,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0311,
+        "io_ms": 0.0353,
+        "total_ms": 0.0788,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0129,
+        "serialisation_ms": 0.0296,
+        "io_ms": 0.0372,
+        "total_ms": 0.0797,
+        "n_events": 5
+      }
+    ],
+    "label": "W1: Email Triage (Single-agent)"
+  },
+  "W2_codereview": {
+    "on": [
+      46910.837,
+      46916.003,
+      47068.022,
+      47133.176,
+      47027.78,
+      46973.875,
+      47021.795,
+      47258.927,
+      47083.048,
+      47016.023,
+      46878.388,
+      47095.697,
+      46925.533,
+      46960.088,
+      47022.809,
+      46926.031,
+      47278.788,
+      47118.978,
+      47031.095,
+      47172.797,
+      47228.903,
+      47202.149,
+      46883.17,
+      46963.192,
+      47161.621,
+      47394.524,
+      46900.009,
+      46896.389,
+      47183.801,
+      46977.46,
+      47210.438,
+      47141.825,
+      47045.275,
+      46928.074,
+      47221.152,
+      47538.015,
+      47288.864,
+      47117.521,
+      47253.319,
+      46935.875,
+      46887.17,
+      46958.791,
+      47111.923,
+      46954.385,
+      47231.063,
+      47099.689,
+      47320.635,
+      47118.167,
+      46957.961,
+      47027.42,
+      47051.597,
+      46826.056,
+      47262.063,
+      47308.281,
+      46978.794,
+      47536.452,
+      46977.331,
+      47051.829,
+      47300.773,
+      47462.024,
+      47147.864,
+      47003.857,
+      46872.954,
+      47117.534,
+      47264.619,
+      47130.395,
+      46951.099,
+      47223.17,
+      47049.965,
+      47205.676,
+      47108.755,
+      46846.853,
+      46699.402,
+      46984.399,
+      46885.349,
+      47096.156,
+      47030.427,
+      47104.721,
+      47193.421,
+      46957.817,
+      46963.249,
+      47230.751,
+      46952.835,
+      46955.087,
+      46936.718,
+      47017.957,
+      47180.73,
+      47222.08,
+      47287.11,
+      47057.092,
+      47119.229,
+      47339.648,
+      47161.926,
+      47201.773,
+      47427.359,
+      46982.979,
+      47172.248,
+      47096.994,
+      46914.824,
+      47090.874
+    ],
+    "off": [
+      46963.898,
+      47159.995,
+      47102.435,
+      47113.925,
+      47065.557,
+      47238.203,
+      47049.254,
+      47137.177,
+      47102.357,
+      46970.775,
+      47085.175,
+      47068.718,
+      47010.53,
+      47074.975,
+      47170.601,
+      47313.11,
+      47188.847,
+      47035.955,
+      47348.601,
+      47089.846,
+      47241.606,
+      47175.922,
+      47113.462,
+      47170.925,
+      47067.014,
+      47074.058,
+      47089.983,
+      47247.943,
+      47023.418,
+      47237.351,
+      47333.913,
+      47062.967,
+      47084.443,
+      46707.706,
+      47194.832,
+      47204.88,
+      47244.459,
+      46991.663,
+      46745.96,
+      47193.051,
+      46958.829,
+      47205.314,
+      47061.204,
+      46817.973,
+      46988.865,
+      46984.729,
+      47041.136,
+      46913.049,
+      47205.879,
+      46987.167,
+      47083.849,
+      47096.349,
+      47293.563,
+      47090.273,
+      47062.46,
+      46911.774,
+      47276.688,
+      47210.398,
+      47123.001,
+      47135.225,
+      47013.797,
+      47027.945,
+      46983.762,
+      46938.392,
+      47237.024,
+      47138.025,
+      47062.632,
+      47121.337,
+      47160.227,
+      47099.983,
+      47071.885,
+      47179.086,
+      47120.598,
+      47090.015,
+      46973.067,
+      47333.761,
+      47267.326,
+      47070.339,
+      47091.392,
+      47281.229,
+      46987.221,
+      47271.765,
+      46885.14,
+      47165.988,
+      47055.98,
+      47003.964,
+      47187.951,
+      47407.124,
+      46993.237,
+      47169.487,
+      47077.182,
+      47280.296,
+      47125.831,
+      47148.544,
+      47180.739,
+      47121.621,
+      46929.339,
+      47249.284,
+      46864.807,
+      47054.45
+    ],
+    "components_on": [
+      {
+        "interception_ms": 0.0146,
+        "serialisation_ms": 0.0377,
+        "io_ms": 0.0504,
+        "total_ms": 0.1026,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0139,
+        "serialisation_ms": 0.0356,
+        "io_ms": 0.0474,
+        "total_ms": 0.0969,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0317,
+        "io_ms": 0.0427,
+        "total_ms": 0.0862,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0312,
+        "io_ms": 0.0402,
+        "total_ms": 0.0834,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0426,
+        "total_ms": 0.0863,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.031,
+        "io_ms": 0.0405,
+        "total_ms": 0.0837,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0417,
+        "total_ms": 0.0851,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0127,
+        "serialisation_ms": 0.0325,
+        "io_ms": 0.041,
+        "total_ms": 0.0863,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0316,
+        "io_ms": 0.0439,
+        "total_ms": 0.0878,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0128,
+        "serialisation_ms": 0.0337,
+        "io_ms": 0.0388,
+        "total_ms": 0.0854,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.04,
+        "total_ms": 0.0835,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0391,
+        "total_ms": 0.083,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0133,
+        "serialisation_ms": 0.0338,
+        "io_ms": 0.0435,
+        "total_ms": 0.0906,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0326,
+        "io_ms": 0.0402,
+        "total_ms": 0.0847,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0349,
+        "io_ms": 0.0456,
+        "total_ms": 0.0938,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0345,
+        "io_ms": 0.0445,
+        "total_ms": 0.0924,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0138,
+        "serialisation_ms": 0.037,
+        "io_ms": 0.0484,
+        "total_ms": 0.0992,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0126,
+        "serialisation_ms": 0.0324,
+        "io_ms": 0.0408,
+        "total_ms": 0.0858,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0321,
+        "io_ms": 0.0407,
+        "total_ms": 0.0851,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0399,
+        "total_ms": 0.0838,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0144,
+        "serialisation_ms": 0.0371,
+        "io_ms": 0.0462,
+        "total_ms": 0.0977,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.014,
+        "serialisation_ms": 0.0585,
+        "io_ms": 0.0423,
+        "total_ms": 0.1148,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0456,
+        "total_ms": 0.0899,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0129,
+        "serialisation_ms": 0.0343,
+        "io_ms": 0.0425,
+        "total_ms": 0.0896,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0309,
+        "io_ms": 0.038,
+        "total_ms": 0.081,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0313,
+        "io_ms": 0.0416,
+        "total_ms": 0.0854,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0308,
+        "io_ms": 0.0409,
+        "total_ms": 0.0838,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0324,
+        "io_ms": 0.0426,
+        "total_ms": 0.0875,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0316,
+        "io_ms": 0.0423,
+        "total_ms": 0.0861,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0127,
+        "serialisation_ms": 0.0324,
+        "io_ms": 0.0419,
+        "total_ms": 0.087,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0415,
+        "total_ms": 0.0857,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0159,
+        "serialisation_ms": 0.0331,
+        "io_ms": 0.04,
+        "total_ms": 0.0889,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0128,
+        "serialisation_ms": 0.0323,
+        "io_ms": 0.0459,
+        "total_ms": 0.091,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0347,
+        "io_ms": 0.045,
+        "total_ms": 0.0933,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0312,
+        "io_ms": 0.038,
+        "total_ms": 0.0809,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0312,
+        "io_ms": 0.0396,
+        "total_ms": 0.0826,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0139,
+        "serialisation_ms": 0.0361,
+        "io_ms": 0.0479,
+        "total_ms": 0.0978,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0327,
+        "io_ms": 0.0424,
+        "total_ms": 0.0876,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0128,
+        "serialisation_ms": 0.0337,
+        "io_ms": 0.0423,
+        "total_ms": 0.0888,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0444,
+        "total_ms": 0.0882,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0328,
+        "io_ms": 0.0401,
+        "total_ms": 0.0851,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0313,
+        "io_ms": 0.0458,
+        "total_ms": 0.0892,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0318,
+        "io_ms": 0.0409,
+        "total_ms": 0.0849,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0389,
+        "io_ms": 0.0416,
+        "total_ms": 0.0929,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0404,
+        "total_ms": 0.0839,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0322,
+        "io_ms": 0.0421,
+        "total_ms": 0.0865,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0149,
+        "serialisation_ms": 0.0342,
+        "io_ms": 0.0436,
+        "total_ms": 0.0927,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0141,
+        "serialisation_ms": 0.0352,
+        "io_ms": 0.0478,
+        "total_ms": 0.0971,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0327,
+        "io_ms": 0.0398,
+        "total_ms": 0.0842,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0127,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0392,
+        "total_ms": 0.0833,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0149,
+        "serialisation_ms": 0.0393,
+        "io_ms": 0.0525,
+        "total_ms": 0.1067,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0397,
+        "total_ms": 0.0834,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0488,
+        "io_ms": 0.0433,
+        "total_ms": 0.1051,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0149,
+        "serialisation_ms": 0.071,
+        "io_ms": 0.0484,
+        "total_ms": 0.1343,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0136,
+        "serialisation_ms": 0.0352,
+        "io_ms": 0.0461,
+        "total_ms": 0.0949,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.018,
+        "serialisation_ms": 0.0359,
+        "io_ms": 0.0437,
+        "total_ms": 0.0976,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0149,
+        "serialisation_ms": 0.0362,
+        "io_ms": 0.0471,
+        "total_ms": 0.0983,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0147,
+        "serialisation_ms": 0.0374,
+        "io_ms": 0.047,
+        "total_ms": 0.099,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0356,
+        "io_ms": 0.0449,
+        "total_ms": 0.0937,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0139,
+        "serialisation_ms": 0.0349,
+        "io_ms": 0.0465,
+        "total_ms": 0.0953,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0141,
+        "serialisation_ms": 0.0357,
+        "io_ms": 0.0518,
+        "total_ms": 0.1016,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0338,
+        "io_ms": 0.0463,
+        "total_ms": 0.0931,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0349,
+        "io_ms": 0.0453,
+        "total_ms": 0.0934,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0146,
+        "serialisation_ms": 0.0371,
+        "io_ms": 0.0486,
+        "total_ms": 0.1003,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0165,
+        "serialisation_ms": 0.0361,
+        "io_ms": 0.0503,
+        "total_ms": 0.1029,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0146,
+        "serialisation_ms": 0.0362,
+        "io_ms": 0.0486,
+        "total_ms": 0.0995,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0165,
+        "serialisation_ms": 0.0645,
+        "io_ms": 0.0494,
+        "total_ms": 0.1304,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0334,
+        "io_ms": 0.0429,
+        "total_ms": 0.0899,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0131,
+        "serialisation_ms": 0.0336,
+        "io_ms": 0.0455,
+        "total_ms": 0.0922,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.014,
+        "serialisation_ms": 0.0325,
+        "io_ms": 0.0443,
+        "total_ms": 0.0908,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0138,
+        "serialisation_ms": 0.0347,
+        "io_ms": 0.0464,
+        "total_ms": 0.095,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0318,
+        "io_ms": 0.0428,
+        "total_ms": 0.0878,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0316,
+        "io_ms": 0.0402,
+        "total_ms": 0.084,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.014,
+        "serialisation_ms": 0.0415,
+        "io_ms": 0.0467,
+        "total_ms": 0.1022,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0316,
+        "io_ms": 0.0418,
+        "total_ms": 0.0854,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0339,
+        "io_ms": 0.0432,
+        "total_ms": 0.0904,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0367,
+        "io_ms": 0.0381,
+        "total_ms": 0.0868,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0147,
+        "serialisation_ms": 0.0361,
+        "io_ms": 0.0505,
+        "total_ms": 0.1013,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0141,
+        "serialisation_ms": 0.034,
+        "io_ms": 0.0478,
+        "total_ms": 0.096,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0312,
+        "io_ms": 0.0425,
+        "total_ms": 0.0858,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0134,
+        "serialisation_ms": 0.0336,
+        "io_ms": 0.0499,
+        "total_ms": 0.0969,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0415,
+        "total_ms": 0.0848,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0307,
+        "io_ms": 0.041,
+        "total_ms": 0.0836,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0323,
+        "io_ms": 0.0404,
+        "total_ms": 0.0859,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0415,
+        "total_ms": 0.0853,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0338,
+        "io_ms": 0.0449,
+        "total_ms": 0.0917,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.0414,
+        "total_ms": 0.0855,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0158,
+        "serialisation_ms": 0.0723,
+        "io_ms": 0.05,
+        "total_ms": 0.1381,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0126,
+        "serialisation_ms": 0.0313,
+        "io_ms": 0.0393,
+        "total_ms": 0.0832,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0326,
+        "io_ms": 0.0403,
+        "total_ms": 0.0852,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0142,
+        "serialisation_ms": 0.0411,
+        "io_ms": 0.0695,
+        "total_ms": 0.1247,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0124,
+        "serialisation_ms": 0.0335,
+        "io_ms": 0.042,
+        "total_ms": 0.0878,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0315,
+        "io_ms": 0.043,
+        "total_ms": 0.0867,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0171,
+        "serialisation_ms": 0.0327,
+        "io_ms": 0.0386,
+        "total_ms": 0.0883,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.036,
+        "io_ms": 0.044,
+        "total_ms": 0.0932,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.035,
+        "io_ms": 0.0436,
+        "total_ms": 0.0918,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0133,
+        "serialisation_ms": 0.033,
+        "io_ms": 0.0467,
+        "total_ms": 0.093,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0137,
+        "serialisation_ms": 0.036,
+        "io_ms": 0.0483,
+        "total_ms": 0.0979,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0143,
+        "serialisation_ms": 0.0351,
+        "io_ms": 0.0516,
+        "total_ms": 0.1009,
+        "n_events": 5
+      },
+      {
+        "interception_ms": 0.0141,
+        "serialisation_ms": 0.0349,
+        "io_ms": 0.0505,
+        "total_ms": 0.0996,
+        "n_events": 5
+      }
+    ],
+    "label": "W2: Code Review (Multi-agent)"
+  },
+  "W3_research": {
+    "on": [
+      2563.882,
+      886.009,
+      909.628,
+      921.864,
+      888.277,
+      901.282,
+      882.449,
+      894.36,
+      909.158,
+      895.265,
+      878.342,
+      888.118,
+      886.785,
+      890.228,
+      886.27,
+      924.817,
+      908.412,
+      912.467,
+      888.299,
+      903.142,
+      905.426,
+      907.306,
+      895.855,
+      896.694,
+      908.242,
+      890.051,
+      889.224,
+      906.361,
+      909.788,
+      906.173,
+      896.84,
+      899.843,
+      890.165,
+      931.637,
+      903.132,
+      926.214,
+      890.105,
+      908.369,
+      891.629,
+      881.324,
+      891.974,
+      903.063,
+      905.077,
+      880.058,
+      900.11,
+      890.831,
+      896.917,
+      900.274,
+      903.263,
+      897.631,
+      902.225,
+      911.493,
+      885.866,
+      904.249,
+      912.249,
+      898.426,
+      904.828,
+      890.186,
+      900.501,
+      896.269,
+      878.587,
+      886.52,
+      889.992,
+      894.425,
+      910.211,
+      884.379,
+      917.986,
+      918.463,
+      898.901,
+      880.503,
+      882.993,
+      892.045,
+      892.46,
+      880.902,
+      885.158,
+      880.008,
+      882.083,
+      906.683,
+      909.573,
+      896.346,
+      881.976,
+      889.8,
+      893.151,
+      907.138,
+      903.492,
+      896.023,
+      898.144,
+      907.217,
+      919.778,
+      902.636,
+      885.779,
+      882.126,
+      901.402,
+      881.439,
+      894.928,
+      912.692,
+      870.55,
+      887.53,
+      888.321,
+      897.573
+    ],
+    "off": [
+      921.66,
+      901.159,
+      881.617,
+      910.391,
+      885.09,
+      904.939,
+      895.198,
+      881.837,
+      894.142,
+      904.102,
+      906.05,
+      907.628,
+      888.536,
+      893.523,
+      894.239,
+      904.856,
+      896.77,
+      904.958,
+      896.97,
+      910.751,
+      897.295,
+      896.681,
+      906.772,
+      887.696,
+      892.519,
+      887.322,
+      884.539,
+      895.257,
+      876.604,
+      902.532,
+      881.129,
+      909.853,
+      905.74,
+      902.329,
+      918.611,
+      895.976,
+      892.421,
+      907.425,
+      894.065,
+      900.738,
+      899.436,
+      903.672,
+      903.186,
+      924.548,
+      918.152,
+      889.43,
+      865.818,
+      898.219,
+      897.951,
+      882.059,
+      900.286,
+      885.303,
+      897.521,
+      887.344,
+      881.304,
+      896.141,
+      894.243,
+      879.037,
+      886.06,
+      908.451,
+      889.141,
+      909.177,
+      914.931,
+      908.707,
+      899.886,
+      904.173,
+      894.54,
+      909.673,
+      879.388,
+      885.882,
+      894.79,
+      897.056,
+      885.373,
+      892.452,
+      918.828,
+      902.004,
+      897.756,
+      884.769,
+      887.915,
+      913.389,
+      900.6,
+      907.687,
+      901.764,
+      892.981,
+      874.14,
+      889.013,
+      891.786,
+      919.438,
+      876.612,
+      873.22,
+      882.166,
+      901.64,
+      892.873,
+      899.769,
+      918.925,
+      884.514,
+      921.711,
+      908.881,
+      875.073,
+      902.207
+    ],
+    "components_on": [
+      {
+        "interception_ms": 0.014,
+        "serialisation_ms": 0.0358,
+        "io_ms": 0.0476,
+        "total_ms": 0.0974,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0317,
+        "io_ms": 0.043,
+        "total_ms": 0.0881,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0139,
+        "serialisation_ms": 0.0343,
+        "io_ms": 0.0453,
+        "total_ms": 0.0936,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0148,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0407,
+        "total_ms": 0.0861,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0384,
+        "total_ms": 0.0773,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.0354,
+        "total_ms": 0.0748,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0275,
+        "io_ms": 0.0342,
+        "total_ms": 0.0727,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0316,
+        "io_ms": 0.0369,
+        "total_ms": 0.0802,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0288,
+        "io_ms": 0.0345,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0273,
+        "io_ms": 0.0375,
+        "total_ms": 0.0759,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0286,
+        "io_ms": 0.0377,
+        "total_ms": 0.0779,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0107,
+        "serialisation_ms": 0.0271,
+        "io_ms": 0.0365,
+        "total_ms": 0.0743,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0348,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0325,
+        "io_ms": 0.0393,
+        "total_ms": 0.0838,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0105,
+        "serialisation_ms": 0.0269,
+        "io_ms": 0.0344,
+        "total_ms": 0.0719,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.2223,
+        "total_ms": 0.2667,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0343,
+        "total_ms": 0.0728,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0291,
+        "io_ms": 0.035,
+        "total_ms": 0.075,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.0346,
+        "total_ms": 0.074,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0107,
+        "serialisation_ms": 0.027,
+        "io_ms": 0.0336,
+        "total_ms": 0.0712,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0287,
+        "io_ms": 0.0375,
+        "total_ms": 0.0777,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0307,
+        "io_ms": 0.7854,
+        "total_ms": 0.8281,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0271,
+        "io_ms": 0.0358,
+        "total_ms": 0.0739,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0276,
+        "io_ms": 0.0381,
+        "total_ms": 0.0771,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.0338,
+        "total_ms": 0.0728,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0356,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0107,
+        "serialisation_ms": 0.0272,
+        "io_ms": 0.033,
+        "total_ms": 0.0709,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0105,
+        "serialisation_ms": 0.0267,
+        "io_ms": 0.0336,
+        "total_ms": 0.0707,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0338,
+        "total_ms": 0.0732,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0105,
+        "serialisation_ms": 0.0257,
+        "io_ms": 0.0364,
+        "total_ms": 0.0727,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0297,
+        "io_ms": 0.0355,
+        "total_ms": 0.0768,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0155,
+        "serialisation_ms": 0.0319,
+        "io_ms": 0.0384,
+        "total_ms": 0.0859,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0269,
+        "io_ms": 0.0354,
+        "total_ms": 0.0732,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0374,
+        "total_ms": 0.0771,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0287,
+        "io_ms": 0.7964,
+        "total_ms": 0.8365,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0267,
+        "io_ms": 0.0379,
+        "total_ms": 0.0754,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0274,
+        "io_ms": 0.0354,
+        "total_ms": 0.0742,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0369,
+        "total_ms": 0.0761,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0288,
+        "io_ms": 0.0374,
+        "total_ms": 0.0774,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.0346,
+        "total_ms": 0.0742,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.035,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.8293,
+        "total_ms": 0.8685,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0103,
+        "serialisation_ms": 0.0265,
+        "io_ms": 0.0327,
+        "total_ms": 0.0694,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0261,
+        "io_ms": 0.0341,
+        "total_ms": 0.0717,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0276,
+        "io_ms": 0.0337,
+        "total_ms": 0.0726,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0287,
+        "io_ms": 0.0359,
+        "total_ms": 0.0761,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0346,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0289,
+        "io_ms": 0.0358,
+        "total_ms": 0.0767,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0285,
+        "io_ms": 0.0352,
+        "total_ms": 0.0755,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0377,
+        "total_ms": 0.0778,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0342,
+        "total_ms": 0.074,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0274,
+        "io_ms": 0.034,
+        "total_ms": 0.073,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0384,
+        "total_ms": 0.0779,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.027,
+        "io_ms": 0.0334,
+        "total_ms": 0.0713,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0332,
+        "total_ms": 0.0726,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0142,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0354,
+        "total_ms": 0.0778,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0273,
+        "io_ms": 0.0388,
+        "total_ms": 0.0778,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0371,
+        "total_ms": 0.0765,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0346,
+        "total_ms": 0.0741,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0355,
+        "total_ms": 0.0754,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0353,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0272,
+        "io_ms": 0.0345,
+        "total_ms": 0.0724,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0143,
+        "serialisation_ms": 0.0375,
+        "io_ms": 0.715,
+        "total_ms": 0.7668,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0338,
+        "io_ms": 0.0434,
+        "total_ms": 0.0904,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0365,
+        "total_ms": 0.0759,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0267,
+        "io_ms": 0.0375,
+        "total_ms": 0.0753,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0142,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0337,
+        "total_ms": 0.0759,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0341,
+        "total_ms": 0.0732,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0343,
+        "total_ms": 0.0732,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0335,
+        "io_ms": 0.0421,
+        "total_ms": 0.0885,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0268,
+        "io_ms": 0.0359,
+        "total_ms": 0.0736,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0379,
+        "total_ms": 0.0776,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0376,
+        "total_ms": 0.0769,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0357,
+        "total_ms": 0.0744,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0143,
+        "serialisation_ms": 0.0377,
+        "io_ms": 0.0485,
+        "total_ms": 0.1006,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0287,
+        "io_ms": 0.0388,
+        "total_ms": 0.079,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0389,
+        "total_ms": 0.0807,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0275,
+        "io_ms": 0.0362,
+        "total_ms": 0.0748,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0285,
+        "io_ms": 0.0375,
+        "total_ms": 0.0775,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0299,
+        "io_ms": 0.0378,
+        "total_ms": 0.0791,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0105,
+        "serialisation_ms": 0.026,
+        "io_ms": 0.0331,
+        "total_ms": 0.0696,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0144,
+        "serialisation_ms": 0.0359,
+        "io_ms": 0.052,
+        "total_ms": 0.1023,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.029,
+        "io_ms": 0.812,
+        "total_ms": 0.8521,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0267,
+        "io_ms": 0.034,
+        "total_ms": 0.0715,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0366,
+        "total_ms": 0.0768,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0345,
+        "total_ms": 0.0732,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0137,
+        "serialisation_ms": 0.042,
+        "io_ms": 0.0375,
+        "total_ms": 0.0932,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0289,
+        "io_ms": 0.0374,
+        "total_ms": 0.0776,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0128,
+        "serialisation_ms": 0.0286,
+        "io_ms": 0.0366,
+        "total_ms": 0.0781,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0273,
+        "io_ms": 0.0351,
+        "total_ms": 0.0735,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.03,
+        "io_ms": 0.0367,
+        "total_ms": 0.0785,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0354,
+        "total_ms": 0.0754,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.03,
+        "io_ms": 0.0358,
+        "total_ms": 0.0769,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0285,
+        "io_ms": 0.0353,
+        "total_ms": 0.075,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0155,
+        "serialisation_ms": 0.0344,
+        "io_ms": 0.0432,
+        "total_ms": 0.093,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0304,
+        "io_ms": 0.0418,
+        "total_ms": 0.0844,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0133,
+        "serialisation_ms": 0.0353,
+        "io_ms": 0.04,
+        "total_ms": 0.0887,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.033,
+        "io_ms": 0.822,
+        "total_ms": 0.8673,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0363,
+        "io_ms": 0.0453,
+        "total_ms": 0.0951,
+        "n_events": 3
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0333,
+        "io_ms": 0.041,
+        "total_ms": 0.0875,
+        "n_events": 3
+      }
+    ],
+    "label": "W3: Web Research (Tool-augmented)"
+  },
+  "W4_coding": {
+    "on": [
+      27578.092,
+      27523.251,
+      27587.257,
+      27476.483,
+      27430.973,
+      27392.135,
+      27419.426,
+      27472.269,
+      27434.931,
+      27380.14,
+      27398.334,
+      27451.641,
+      27460.798,
+      27542.689,
+      27363.623,
+      27390.634,
+      27537.349,
+      27591.876,
+      27447.416,
+      27358.959,
+      27321.001,
+      27400.19,
+      27444.266,
+      27410.737,
+      27402.235,
+      27265.763,
+      27413.944,
+      27416.953,
+      27367.948,
+      27400.858,
+      27426.574,
+      27446.762,
+      27296.498,
+      27517.384,
+      27387.256,
+      27391.741,
+      27476.074,
+      27602.127,
+      27576.759,
+      27451.847,
+      27321.473,
+      27474.962,
+      27573.503,
+      27399.059,
+      27390.783,
+      27435.178,
+      27431.875,
+      27472.297,
+      27468.946,
+      27439.09,
+      27470.854,
+      27256.404,
+      27343.335,
+      27578.505,
+      27397.02,
+      27489.541,
+      27643.335,
+      27290.027,
+      27440.859,
+      27325.618,
+      27456.509,
+      27472.302,
+      27571.179,
+      27478.601,
+      27457.966,
+      27378.777,
+      27285.456,
+      27473.935,
+      27407.299,
+      27559.703,
+      27352.795,
+      27401.421,
+      27426.859,
+      27513.203,
+      27469.068,
+      27554.328,
+      27330.982,
+      27351.414,
+      27472.615,
+      27373.441,
+      27421.909,
+      27488.746,
+      27576.1,
+      27202.334,
+      27496.685,
+      27554.158,
+      27512.085,
+      27522.229,
+      27402.595,
+      27412.128,
+      27323.733,
+      27396.463,
+      27361.676,
+      27387.236,
+      27468.63,
+      27572.094,
+      27529.226,
+      27381.797,
+      27310.937,
+      27424.055
+    ],
+    "off": [
+      27446.028,
+      27333.43,
+      27395.681,
+      27574.847,
+      27458.976,
+      27566.376,
+      27247.698,
+      27637.759,
+      27610.538,
+      27376.568,
+      27542.713,
+      27278.076,
+      27438.75,
+      27386.995,
+      27341.748,
+      27389.681,
+      27467.377,
+      27354.635,
+      27528.935,
+      27429.039,
+      27408.545,
+      27384.092,
+      27276.664,
+      27428.614,
+      27410.754,
+      27445.59,
+      27396.795,
+      27545.726,
+      27326.059,
+      27393.45,
+      27492.396,
+      27394.462,
+      27301.104,
+      27242.044,
+      27306.756,
+      27361.545,
+      27452.186,
+      27343.943,
+      27496.577,
+      27463.95,
+      27512.474,
+      27392.835,
+      27511.53,
+      27457.717,
+      27582.594,
+      27611.591,
+      27457.08,
+      27558.728,
+      27500.724,
+      27555.713,
+      27362.161,
+      27469.135,
+      27577.909,
+      27423.839,
+      27337.438,
+      27504.15,
+      27395.79,
+      27376.845,
+      27324.393,
+      27454.106,
+      27550.262,
+      27554.865,
+      27375.685,
+      27446.859,
+      27440.317,
+      27358.18,
+      27401.453,
+      27486.248,
+      27570.664,
+      27397.961,
+      27373.705,
+      27397.915,
+      27384.601,
+      27475.065,
+      27302.927,
+      27370.742,
+      27346.297,
+      27487.831,
+      27516.93,
+      27637.783,
+      27519.208,
+      27274.513,
+      27506.115,
+      27383.304,
+      27265.404,
+      27510.152,
+      27226.393,
+      27390.897,
+      27467.976,
+      27387.319,
+      27398.503,
+      27467.001,
+      27651.432,
+      27527.974,
+      27404.148,
+      27378.514,
+      27330.797,
+      27402.534,
+      27555.788,
+      27540.317
+    ],
+    "components_on": [
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0295,
+        "io_ms": 0.0367,
+        "total_ms": 0.0782,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0103,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0339,
+        "total_ms": 0.0756,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0335,
+        "total_ms": 0.0722,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0292,
+        "io_ms": 0.0333,
+        "total_ms": 0.0739,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0298,
+        "io_ms": 0.0353,
+        "total_ms": 0.0768,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0336,
+        "total_ms": 0.0724,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0289,
+        "io_ms": 0.0345,
+        "total_ms": 0.0746,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0275,
+        "io_ms": 0.0326,
+        "total_ms": 0.0708,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0276,
+        "io_ms": 0.0346,
+        "total_ms": 0.074,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0274,
+        "io_ms": 0.0338,
+        "total_ms": 0.0736,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0304,
+        "io_ms": 0.0401,
+        "total_ms": 0.0826,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0134,
+        "serialisation_ms": 0.031,
+        "io_ms": 0.0377,
+        "total_ms": 0.082,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0294,
+        "io_ms": 0.0366,
+        "total_ms": 0.0783,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.013,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0333,
+        "total_ms": 0.0746,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0169,
+        "serialisation_ms": 0.0299,
+        "io_ms": 0.0374,
+        "total_ms": 0.0842,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0289,
+        "io_ms": 0.0346,
+        "total_ms": 0.075,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0362,
+        "total_ms": 0.0791,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0333,
+        "total_ms": 0.0725,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0107,
+        "serialisation_ms": 0.0314,
+        "io_ms": 0.0337,
+        "total_ms": 0.0757,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0321,
+        "io_ms": 0.0335,
+        "total_ms": 0.0768,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0291,
+        "io_ms": 0.0366,
+        "total_ms": 0.0777,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.029,
+        "io_ms": 0.0342,
+        "total_ms": 0.0746,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0366,
+        "total_ms": 0.0756,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0358,
+        "total_ms": 0.0785,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0297,
+        "io_ms": 0.0339,
+        "total_ms": 0.0761,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0287,
+        "io_ms": 0.0339,
+        "total_ms": 0.0743,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0181,
+        "serialisation_ms": 0.0348,
+        "io_ms": 0.0402,
+        "total_ms": 0.0931,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0122,
+        "serialisation_ms": 0.0308,
+        "io_ms": 0.037,
+        "total_ms": 0.0799,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.0322,
+        "total_ms": 0.0721,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0274,
+        "io_ms": 0.0321,
+        "total_ms": 0.0704,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0292,
+        "io_ms": 0.0328,
+        "total_ms": 0.0743,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0346,
+        "total_ms": 0.0734,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0114,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0331,
+        "total_ms": 0.0723,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.029,
+        "io_ms": 0.0324,
+        "total_ms": 0.0731,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0363,
+        "total_ms": 0.0786,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0293,
+        "io_ms": 0.0326,
+        "total_ms": 0.0727,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0341,
+        "total_ms": 0.0738,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0126,
+        "serialisation_ms": 0.0317,
+        "io_ms": 0.0364,
+        "total_ms": 0.0807,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0268,
+        "io_ms": 0.0362,
+        "total_ms": 0.0741,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0274,
+        "io_ms": 0.0331,
+        "total_ms": 0.0715,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0291,
+        "io_ms": 0.0344,
+        "total_ms": 0.075,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0129,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.0352,
+        "total_ms": 0.0783,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0304,
+        "io_ms": 0.038,
+        "total_ms": 0.0809,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0119,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.0375,
+        "total_ms": 0.0797,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0132,
+        "serialisation_ms": 0.0326,
+        "io_ms": 0.0386,
+        "total_ms": 0.0843,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0285,
+        "io_ms": 0.0356,
+        "total_ms": 0.0755,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0383,
+        "total_ms": 0.078,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0278,
+        "io_ms": 0.0335,
+        "total_ms": 0.0721,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0341,
+        "total_ms": 0.0738,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0284,
+        "io_ms": 0.0343,
+        "total_ms": 0.0741,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0118,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0329,
+        "total_ms": 0.0724,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0326,
+        "total_ms": 0.0716,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0288,
+        "io_ms": 0.035,
+        "total_ms": 0.0753,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0301,
+        "io_ms": 0.0337,
+        "total_ms": 0.0748,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0386,
+        "total_ms": 0.0781,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0287,
+        "io_ms": 0.0348,
+        "total_ms": 0.0748,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0277,
+        "io_ms": 0.0324,
+        "total_ms": 0.0711,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0126,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0386,
+        "total_ms": 0.0818,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0286,
+        "io_ms": 0.0346,
+        "total_ms": 0.0747,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0294,
+        "io_ms": 0.0389,
+        "total_ms": 0.0799,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.012,
+        "serialisation_ms": 0.0497,
+        "io_ms": 0.0366,
+        "total_ms": 0.0982,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0284,
+        "io_ms": 0.0347,
+        "total_ms": 0.0748,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0341,
+        "io_ms": 0.0337,
+        "total_ms": 0.0799,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0332,
+        "io_ms": 0.0336,
+        "total_ms": 0.0777,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0346,
+        "total_ms": 0.0741,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0332,
+        "total_ms": 0.073,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0299,
+        "io_ms": 0.036,
+        "total_ms": 0.0774,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.033,
+        "total_ms": 0.0723,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0128,
+        "serialisation_ms": 0.065,
+        "io_ms": 0.0388,
+        "total_ms": 0.1166,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0288,
+        "io_ms": 0.0341,
+        "total_ms": 0.0743,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0275,
+        "io_ms": 0.0342,
+        "total_ms": 0.0726,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0295,
+        "io_ms": 0.0381,
+        "total_ms": 0.0799,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0107,
+        "serialisation_ms": 0.0309,
+        "io_ms": 0.0337,
+        "total_ms": 0.0753,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0282,
+        "io_ms": 0.0355,
+        "total_ms": 0.0749,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0305,
+        "io_ms": 0.0358,
+        "total_ms": 0.078,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.0275,
+        "io_ms": 0.0344,
+        "total_ms": 0.073,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0115,
+        "serialisation_ms": 0.0293,
+        "io_ms": 0.0342,
+        "total_ms": 0.0751,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0345,
+        "total_ms": 0.0733,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0109,
+        "serialisation_ms": 0.0276,
+        "io_ms": 0.033,
+        "total_ms": 0.0716,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.029,
+        "io_ms": 0.0339,
+        "total_ms": 0.0741,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0334,
+        "total_ms": 0.0727,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.031,
+        "io_ms": 0.0369,
+        "total_ms": 0.0804,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.011,
+        "serialisation_ms": 0.0279,
+        "io_ms": 0.0331,
+        "total_ms": 0.0721,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0328,
+        "total_ms": 0.0719,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0107,
+        "serialisation_ms": 0.0276,
+        "io_ms": 0.0323,
+        "total_ms": 0.0706,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0127,
+        "serialisation_ms": 0.0306,
+        "io_ms": 0.0346,
+        "total_ms": 0.0778,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0281,
+        "io_ms": 0.0334,
+        "total_ms": 0.0723,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0135,
+        "serialisation_ms": 0.0317,
+        "io_ms": 0.0366,
+        "total_ms": 0.0818,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0121,
+        "serialisation_ms": 0.0313,
+        "io_ms": 0.0383,
+        "total_ms": 0.0817,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0323,
+        "total_ms": 0.0714,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0117,
+        "serialisation_ms": 0.0302,
+        "io_ms": 0.036,
+        "total_ms": 0.0779,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0125,
+        "serialisation_ms": 0.0288,
+        "io_ms": 0.0321,
+        "total_ms": 0.0734,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.0284,
+        "io_ms": 0.0353,
+        "total_ms": 0.0745,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0123,
+        "serialisation_ms": 0.0303,
+        "io_ms": 0.0392,
+        "total_ms": 0.0818,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0108,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0326,
+        "total_ms": 0.0715,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.015,
+        "serialisation_ms": 0.0323,
+        "io_ms": 0.037,
+        "total_ms": 0.0844,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0112,
+        "serialisation_ms": 0.0292,
+        "io_ms": 0.0342,
+        "total_ms": 0.0746,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0113,
+        "serialisation_ms": 0.0283,
+        "io_ms": 0.0354,
+        "total_ms": 0.0749,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0116,
+        "serialisation_ms": 0.0284,
+        "io_ms": 0.0366,
+        "total_ms": 0.0766,
+        "n_events": 7
+      },
+      {
+        "interception_ms": 0.0111,
+        "serialisation_ms": 0.028,
+        "io_ms": 0.0347,
+        "total_ms": 0.0737,
+        "n_events": 7
+      }
+    ],
+    "label": "W4: Coding Agent (Feedback-driven)"
+  }
+}

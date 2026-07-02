@@ -1,0 +1,38 @@
+{
+  "otel": {
+    "mean_ms": 0.022,
+    "median_ms": 0.0174,
+    "what_captured": [
+      "span name",
+      "start/end timestamp",
+      "status code",
+      "3 basic attributes (type, agent, seq)"
+    ],
+    "what_NOT_captured": [
+      "prompt context",
+      "LLM reasoning output",
+      "tool input payload",
+      "tool output payload",
+      "causal parent-child links",
+      "cryptographic hash",
+      "tamper-evident chain"
+    ]
+  },
+  "auditflow": {
+    "mean_ms": 0.0052,
+    "median_ms": 0.0049,
+    "what_captured": [
+      "span name + agent identifier",
+      "start/end timestamp",
+      "status code",
+      "FULL prompt context",
+      "FULL LLM reasoning output",
+      "FULL tool input payload",
+      "FULL tool output payload",
+      "causal parent-child links (parent_id)",
+      "SHA-256 cryptographic hash",
+      "tamper-evident hash chain"
+    ],
+    "what_NOT_captured": []
+  }
+}

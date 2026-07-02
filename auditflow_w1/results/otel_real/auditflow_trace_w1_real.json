@@ -1,0 +1,158 @@
+[
+  {
+    "event_id": "10c6268c-7982-4fd2-a387-c7f8fdcb837c",
+    "run_id": "8af87aba-bf08-4f66-aedd-086681f5fcbd",
+    "seq": 1,
+    "type": "LLM_CALL",
+    "node": "call_model",
+    "timestamp": 1780058164.7186,
+    "parent_id": null,
+    "input": {
+      "messages_count": 1,
+      "messages": [
+        {
+          "role": "human",
+          "content": "Find all newsletter emails and archive them."
+        }
+      ]
+    },
+    "output": {
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "search_emails",
+          "args": {
+            "query": "newsletter"
+          }
+        }
+      ],
+      "has_tool_calls": true
+    },
+    "hash": "5d56ed162317b383"
+  },
+  {
+    "event_id": "d6fb2153-a3b8-4ba3-a33f-a1d2dc865f83",
+    "run_id": "8af87aba-bf08-4f66-aedd-086681f5fcbd",
+    "seq": 2,
+    "type": "TOOL_CALL",
+    "node": "tools",
+    "timestamp": 1780058164.7302,
+    "parent_id": "10c6268c-7982-4fd2-a387-c7f8fdcb837c",
+    "input": {
+      "tool": "search_emails",
+      "input": {
+        "query": "newsletter"
+      }
+    },
+    "output": {
+      "output": "{\"results\": [{\"id\": \"email_001\", \"from\": \"newsletter@techdigest.com\", \"subject\": \"Tech Digest Weekly\", \"date\": \"2026-05-07\"}, {\"id\": \"email_002\", \"from\": \"newsletter@medium.com\", \"subject\": \"Your Medium digest\", \"date\": \"2026-05-06\"}, {\"id\": \"email_003\", \"from\": \"newsletter@producthunt.com\", \"subject\": \"Top products this week\", \"date\": \"2026-05-05\"}], \"count\": 3}"
+    },
+    "hash": "bd1d5114f733a03a"
+  },
+  {
+    "event_id": "d871225e-9864-4207-b6dd-71ec0fb856cd",
+    "run_id": "8af87aba-bf08-4f66-aedd-086681f5fcbd",
+    "seq": 3,
+    "type": "LLM_CALL",
+    "node": "call_model",
+    "timestamp": 1780058166.3218,
+    "parent_id": "d6fb2153-a3b8-4ba3-a33f-a1d2dc865f83",
+    "input": {
+      "messages_count": 3,
+      "messages": [
+        {
+          "role": "human",
+          "content": "Find all newsletter emails and archive them."
+        },
+        {
+          "role": "ai",
+          "content": ""
+        },
+        {
+          "role": "tool",
+          "content": "{\"results\": [{\"id\": \"email_001\", \"from\": \"newsletter@techdigest.com\", \"subject\": \"Tech Digest Weekly\", \"date\": \"2026-05-07\"}, {\"id\": \"email_002\", \"from\": \"newsletter@medium.com\", \"subject\": \"Your Medium digest\", \"date\": \"2026-05-06\"}, {\"id\": \"email_003\", \"from\": \"newsletter@producthunt.com\", \"subjec"
+        }
+      ]
+    },
+    "output": {
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "archive_emails",
+          "args": {
+            "email_ids": [
+              "email_001",
+              "email_002",
+              "email_003"
+            ]
+          }
+        }
+      ],
+      "has_tool_calls": true
+    },
+    "hash": "109ee364b6d4d146"
+  },
+  {
+    "event_id": "7c37b850-084e-4914-b8f7-4978375d16d5",
+    "run_id": "8af87aba-bf08-4f66-aedd-086681f5fcbd",
+    "seq": 4,
+    "type": "TOOL_CALL",
+    "node": "tools",
+    "timestamp": 1780058166.3361,
+    "parent_id": "d871225e-9864-4207-b6dd-71ec0fb856cd",
+    "input": {
+      "tool": "archive_emails",
+      "input": {
+        "email_ids": [
+          "email_001",
+          "email_002",
+          "email_003"
+        ]
+      }
+    },
+    "output": {
+      "output": "{\"archived\": 3, \"email_ids\": [\"email_001\", \"email_002\", \"email_003\"], \"status\": \"SUCCESS\"}"
+    },
+    "hash": "6146123759c1cd0e"
+  },
+  {
+    "event_id": "8bc1aec8-2828-40e4-a506-236607614e2d",
+    "run_id": "8af87aba-bf08-4f66-aedd-086681f5fcbd",
+    "seq": 5,
+    "type": "LLM_CALL",
+    "node": "call_model",
+    "timestamp": 1780058167.8453,
+    "parent_id": "7c37b850-084e-4914-b8f7-4978375d16d5",
+    "input": {
+      "messages_count": 5,
+      "messages": [
+        {
+          "role": "human",
+          "content": "Find all newsletter emails and archive them."
+        },
+        {
+          "role": "ai",
+          "content": ""
+        },
+        {
+          "role": "tool",
+          "content": "{\"results\": [{\"id\": \"email_001\", \"from\": \"newsletter@techdigest.com\", \"subject\": \"Tech Digest Weekly\", \"date\": \"2026-05-07\"}, {\"id\": \"email_002\", \"from\": \"newsletter@medium.com\", \"subject\": \"Your Medium digest\", \"date\": \"2026-05-06\"}, {\"id\": \"email_003\", \"from\": \"newsletter@producthunt.com\", \"subjec"
+        },
+        {
+          "role": "ai",
+          "content": ""
+        },
+        {
+          "role": "tool",
+          "content": "{\"archived\": 3, \"email_ids\": [\"email_001\", \"email_002\", \"email_003\"], \"status\": \"SUCCESS\"}"
+        }
+      ]
+    },
+    "output": {
+      "content": "I have successfully archived all newsletter emails. If you need any further assistance, feel free to ask!",
+      "tool_calls": [],
+      "has_tool_calls": false
+    },
+    "hash": "16660fc8fdb83886"
+  }
+]

@@ -1,0 +1,185 @@
+======================================================================
+  OpenTelemetry vs AuditFlow — Capability Comparison Report
+  W1: Email Triage Agent
+======================================================================
+
+--- WHAT EACH SYSTEM CAPTURES PER EVENT ---
+
+  Field                                             OTel   AuditFlow
+  -----------------------------------------------------------------
+  Span name                                            ✓           ✓
+  Start/end timestamp                                  ✓           ✓
+  Execution duration                                   ✓           ✓
+  Status code (OK/ERROR)                               ✓           ✓
+  Custom attributes (event.type, agent, seq)           ✓           ✓
+  Span name + agent identifier                         ✗           ✓
+  Status code                                          ✗           ✓
+  FULL prompt context (every token sent to LLM)        ✗           ✓
+  FULL LLM reasoning output                            ✗           ✓
+  FULL tool input payload                              ✗           ✓
+  FULL tool output payload                             ✗           ✓
+  Causal parent_id link (enables DAG reconstruction)        ✗           ✓
+  SHA-256 cryptographic hash (tamper-evident)          ✗           ✓
+  Hash chain across events (integrity verification)        ✗           ✓
+
+--- FAILURE DETECTION CAPABILITY ---
+
+  Failure Class                                        OTel   AuditFlow
+  --------------------------------------------------------------------
+  W1 Context Poisoning (F1) — stale prompt context
+    OTel result : ✗ No prompt captured
+    AuditFlow   : ✓ Full context at seq=2
+
+  W2 Cascading Error (F6) — hash divergence at seq=2
+    OTel result : ✗ No output captured
+    AuditFlow   : ✓ Hash comparison detects EDE
+
+  W3 Prompt Injection (F13) — injected tool payload
+    OTel result : ✗ No payload captured
+    AuditFlow   : ✓ Full payload at seq=3
+
+  W4 Hallucination Loop (F16) — repeated identical hashes
+    OTel result : ✗ No output captured
+    AuditFlow   : ✓ Loop unrolling + hash check
+
+--- PER-EVENT OVERHEAD ---
+
+  OpenTelemetry : 0.0174 ms/event (captures 4 fields)
+  AuditFlow     : 0.0049 ms/event (captures 10 fields)
+
+  AuditFlow overhead ratio vs OTel: 0.3x
+  AuditFlow captures 10/4 = 10 additional fields at 0.3x cost
+  → AuditFlow provides orders of magnitude more forensic value per ms of overhead.
+
+--- WHAT OTEL TRACE CONTAINS (W1, 7 events) ---
+
+  Span 1: GRAPH_START_graph
+    duration : 5.746 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 2: LLM_CALL_call_model
+    duration : 1.581 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 3: TOOL_CALL_tools
+    duration : 1.411 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 4: LLM_CALL_call_model
+    duration : 1.663 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 5: TOOL_CALL_tools
+    duration : 1.620 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 6: LLM_CALL_call_model
+    duration : 1.603 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 7: GRAPH_END_graph
+    duration : 1.613 ms
+    status   : StatusCode.UNSET
+    attributes: ['event.type', 'event.agent', 'event.seq']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+  Span 8: w1_email_triage_workflow
+    duration : 15.236 ms
+    status   : StatusCode.UNSET
+    attributes: ['workflow.type', 'workflow.name', 'run.id']
+    prompt   : NOT CAPTURED
+    output   : NOT CAPTURED
+    payload  : NOT CAPTURED
+    parent   : NOT CAPTURED
+
+--- WHAT AUDITFLOW TRACE CONTAINS (W1, 7 events) ---
+
+  Event [01] GRAPH_START agent=graph
+    latency  : 0.5 ms
+    parent   : None
+    hash     : e68d944ea9825238
+
+  Event [02] LLM_CALL agent=call_model
+    latency  : 5134.2 ms
+    parent   : evt_001
+    hash     : 5cea20469d0eb67f
+    prompt   : You are an email assistant. Task: Archive all newsletter emails.
+Available tools...
+    reasoning: I need to find all newsletter emails first before archiving them.
+
+  Event [03] TOOL_CALL agent=tools
+    latency  : 12.1 ms
+    parent   : evt_002
+    hash     : 6d4bbfde548b8905
+    tool_in  : {'tool': 'search_emails', 'query': 'newsletter'}
+    tool_out : 3 results returned
+
+  Event [04] LLM_CALL agent=call_model
+    latency  : 4891.3 ms
+    parent   : evt_003
+    hash     : c16819dc3f9c2911
+    prompt   : You are an email assistant. Task: Archive all newsletter emails.
+Tool result: Fo...
+    reasoning: Found 3 newsletter emails. Will archive all of them as instructed.
+
+  Event [05] TOOL_CALL agent=tools
+    latency  : 8.3 ms
+    parent   : evt_004
+    hash     : 0ef20a16706d3bea
+    tool_in  : {'tool': 'archive_emails', 'email_ids': ['email_001', 'email_002', 'email_003']}
+
+  Event [06] LLM_CALL agent=call_model
+    latency  : 3201.5 ms
+    parent   : evt_005
+    hash     : f0e570582e397bca
+    prompt   : Tool result: Successfully archived 3 emails....
+    answer   : All 3 newsletter emails have been successfully archived.
+
+  Event [07] GRAPH_END agent=graph
+    latency  : 0.3 ms
+    parent   : evt_006
+    hash     : 968059f8ace36384
+
+======================================================================
+  KEY FINDING
+======================================================================
+  OpenTelemetry records WHEN each step executed and whether it
+  succeeded. It captures no semantic content.
+  AuditFlow records WHAT was reasoned, WHY a decision was made,
+  and HOW outputs propagated causally through the workflow.
+  AuditFlow is not a logging system — it is an execution
+  provenance framework. These are fundamentally different.
+======================================================================

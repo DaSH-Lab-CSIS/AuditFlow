@@ -1,0 +1,9 @@
+Run,Events,IPFS_KB,Bytes_per_event,OnChain_bytes,Savings_pct,Risk_score,Policy,Anchor_bytes
+W1_normal,7,4.515,660.4,115,97.51,0,MINIMAL,35
+W1_failure,9,7.385,840.2,115,98.48,12,FULL,231
+W2_normal,5,4.023,824,114,97.23,0,MINIMAL,35
+W2_failure,5,4.231,866.6,115,97.35,0,MINIMAL,35
+W3_normal,8,7.474,956.6,115,98.5,0,MINIMAL,35
+W3_failure,8,7.48,957.5,115,98.5,0,MINIMAL,35
+W4_normal,7,4.604,673.4,115,97.56,0,MINIMAL,35
+W4_failure,13,10.119,797.1,115,98.89,3,STANDARD,57

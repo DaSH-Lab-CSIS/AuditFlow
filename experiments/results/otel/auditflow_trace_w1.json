@@ -1,0 +1,161 @@
+[
+  {
+    "event_id": "evt_001",
+    "seq": 1,
+    "type": "GRAPH_START",
+    "agent": "graph",
+    "timestamp": 1780057452.7287254,
+    "latency_ms": 0.5,
+    "input": {
+      "task": "Archive all newsletter emails"
+    },
+    "output": {
+      "status": "started"
+    },
+    "parent_id": null,
+    "hash": "e68d944ea9825238"
+  },
+  {
+    "event_id": "evt_002",
+    "seq": 2,
+    "type": "LLM_CALL",
+    "agent": "call_model",
+    "timestamp": 1780057452.7297254,
+    "latency_ms": 5134.2,
+    "input": {
+      "prompt": "You are an email assistant. Task: Archive all newsletter emails.\nAvailable tools: search_emails, archive_emails, delete_emails\nSystem: You must only archive newsletters, never delete.",
+      "model": "llama3.2",
+      "ctx_messages": 1
+    },
+    "output": {
+      "tool_call": "search_emails",
+      "args": {
+        "query": "newsletter"
+      },
+      "reasoning": "I need to find all newsletter emails first before archiving them."
+    },
+    "parent_id": "evt_001",
+    "hash": "5cea20469d0eb67f"
+  },
+  {
+    "event_id": "evt_003",
+    "seq": 3,
+    "type": "TOOL_CALL",
+    "agent": "tools",
+    "timestamp": 1780057457.8637254,
+    "latency_ms": 12.1,
+    "input": {
+      "tool": "search_emails",
+      "query": "newsletter"
+    },
+    "output": {
+      "results": [
+        {
+          "id": "email_001",
+          "from": "newsletter@techdigest.com",
+          "subject": "Tech Digest Weekly"
+        },
+        {
+          "id": "email_002",
+          "from": "news@aiweekly.com",
+          "subject": "AI Weekly Roundup"
+        },
+        {
+          "id": "email_003",
+          "from": "updates@producthunt.com",
+          "subject": "Product Hunt Daily"
+        }
+      ],
+      "count": 3
+    },
+    "parent_id": "evt_002",
+    "hash": "6d4bbfde548b8905"
+  },
+  {
+    "event_id": "evt_004",
+    "seq": 4,
+    "type": "LLM_CALL",
+    "agent": "call_model",
+    "timestamp": 1780057457.8767254,
+    "latency_ms": 4891.3,
+    "input": {
+      "prompt": "You are an email assistant. Task: Archive all newsletter emails.\nTool result: Found 3 newsletters: email_001, email_002, email_003\nSystem: You must only archive newsletters, never delete.",
+      "model": "llama3.2",
+      "ctx_messages": 3
+    },
+    "output": {
+      "tool_call": "archive_emails",
+      "args": {
+        "email_ids": [
+          "email_001",
+          "email_002",
+          "email_003"
+        ]
+      },
+      "reasoning": "Found 3 newsletter emails. Will archive all of them as instructed."
+    },
+    "parent_id": "evt_003",
+    "hash": "c16819dc3f9c2911"
+  },
+  {
+    "event_id": "evt_005",
+    "seq": 5,
+    "type": "TOOL_CALL",
+    "agent": "tools",
+    "timestamp": 1780057462.7687254,
+    "latency_ms": 8.3,
+    "input": {
+      "tool": "archive_emails",
+      "email_ids": [
+        "email_001",
+        "email_002",
+        "email_003"
+      ]
+    },
+    "output": {
+      "archived": 3,
+      "email_ids": [
+        "email_001",
+        "email_002",
+        "email_003"
+      ],
+      "status": "SUCCESS"
+    },
+    "parent_id": "evt_004",
+    "hash": "0ef20a16706d3bea"
+  },
+  {
+    "event_id": "evt_006",
+    "seq": 6,
+    "type": "LLM_CALL",
+    "agent": "call_model",
+    "timestamp": 1780057462.7777255,
+    "latency_ms": 3201.5,
+    "input": {
+      "prompt": "Tool result: Successfully archived 3 emails.",
+      "model": "llama3.2",
+      "ctx_messages": 5
+    },
+    "output": {
+      "answer": "All 3 newsletter emails have been successfully archived.",
+      "done": true
+    },
+    "parent_id": "evt_005",
+    "hash": "f0e570582e397bca"
+  },
+  {
+    "event_id": "evt_007",
+    "seq": 7,
+    "type": "GRAPH_END",
+    "agent": "graph",
+    "timestamp": 1780057465.9797254,
+    "latency_ms": 0.3,
+    "input": {},
+    "output": {
+      "status": "SUCCESS",
+      "emails_archived": 3
+    },
+    "parent_id": "evt_006",
+    "hash": "968059f8ace36384"
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "name": "GRAPH_START_graph",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "c3a3260ef3a16d1a",
+    "start_time_ns": 1780057452757892800,
+    "end_time_ns": 1780057452763638500,
+    "duration_ms": 5.7457,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "GRAPH_START",
+      "event.agent": "graph",
+      "event.seq": 1
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "LLM_CALL_call_model",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "a8ab7f9e48ed5306",
+    "start_time_ns": 1780057452763638500,
+    "end_time_ns": 1780057452765219400,
+    "duration_ms": 1.5809,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "LLM_CALL",
+      "event.agent": "call_model",
+      "event.seq": 2
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "TOOL_CALL_tools",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "cecaa4e739c23fe5",
+    "start_time_ns": 1780057452765219400,
+    "end_time_ns": 1780057452766630000,
+    "duration_ms": 1.4106,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "TOOL_CALL",
+      "event.agent": "tools",
+      "event.seq": 3
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "LLM_CALL_call_model",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "dd5dc13808e64846",
+    "start_time_ns": 1780057452766630000,
+    "end_time_ns": 1780057452768292800,
+    "duration_ms": 1.6628,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "LLM_CALL",
+      "event.agent": "call_model",
+      "event.seq": 4
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "TOOL_CALL_tools",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "706233e691208fbb",
+    "start_time_ns": 1780057452768292800,
+    "end_time_ns": 1780057452769913000,
+    "duration_ms": 1.6202,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "TOOL_CALL",
+      "event.agent": "tools",
+      "event.seq": 5
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "LLM_CALL_call_model",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "2c7a74468adc9e55",
+    "start_time_ns": 1780057452769913000,
+    "end_time_ns": 1780057452771516000,
+    "duration_ms": 1.603,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "LLM_CALL",
+      "event.agent": "call_model",
+      "event.seq": 6
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "GRAPH_END_graph",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "863b80fc9865422b",
+    "start_time_ns": 1780057452771516000,
+    "end_time_ns": 1780057452773128500,
+    "duration_ms": 1.6125,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "event.type": "GRAPH_END",
+      "event.agent": "graph",
+      "event.seq": 7
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  },
+  {
+    "name": "w1_email_triage_workflow",
+    "trace_id": "049ae8b77bb69ffe0a6861e39d2a95c9",
+    "span_id": "67c48bbf1af1dac1",
+    "start_time_ns": 1780057452757892800,
+    "end_time_ns": 1780057452773128500,
+    "duration_ms": 15.2357,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "workflow.type": "single_agent",
+      "workflow.name": "W1_EmailTriage",
+      "run.id": "run_otel_test_001"
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_output": "NOT CAPTURED",
+    "tool_payload": "NOT CAPTURED",
+    "causal_parent": "NOT CAPTURED",
+    "hash": "NOT CAPTURED"
+  }
+]

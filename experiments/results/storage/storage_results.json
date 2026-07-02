@@ -1,0 +1,278 @@
+{
+  "W1_normal": {
+    "name": "W1_normal",
+    "display": "W1 Normal",
+    "storage": {
+      "n_events": 7,
+      "total_bytes": 4623,
+      "total_kb": 4.515,
+      "bytes_per_event": 660.4,
+      "per_type_bytes": {
+        "GRAPH_START": 311,
+        "LLM_CALL": 874,
+        "TOOL_CALL": 633,
+        "GRAPH_END": 424
+      },
+      "ipfs_bytes": 4623,
+      "ipfs_kb": 4.515,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 97.51,
+      "merkle_root": "a2ce451d0dae70eb"
+    },
+    "risk": {
+      "score": 0,
+      "reasons": []
+    },
+    "anchoring": {
+      "policy": "MINIMAL",
+      "description": "Merkle root only",
+      "risk_score": 0,
+      "on_chain_bytes": 35,
+      "on_chain_kb": 0.0342,
+      "n_flagged": 0
+    }
+  },
+  "W1_failure": {
+    "name": "W1_failure",
+    "display": "W1 Failure",
+    "storage": {
+      "n_events": 9,
+      "total_bytes": 7562,
+      "total_kb": 7.385,
+      "bytes_per_event": 840.2,
+      "per_type_bytes": {
+        "GRAPH_START": 304,
+        "LLM_CALL": 1442.3,
+        "TOOL_CALL": 617,
+        "GRAPH_END": 463
+      },
+      "ipfs_bytes": 7562,
+      "ipfs_kb": 7.385,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 98.48,
+      "merkle_root": "6239f72fcefbbbe2"
+    },
+    "risk": {
+      "score": 12,
+      "reasons": [
+        "Irreversible action detected in tool output",
+        "Irreversible warning in output payload"
+      ]
+    },
+    "anchoring": {
+      "policy": "FULL",
+      "description": "Merkle root + all 9 event hashes",
+      "risk_score": 12,
+      "on_chain_bytes": 231,
+      "on_chain_kb": 0.2256,
+      "n_flagged": 2
+    }
+  },
+  "W2_normal": {
+    "name": "W2_normal",
+    "display": "W2 Normal",
+    "storage": {
+      "n_events": 5,
+      "total_bytes": 4120,
+      "total_kb": 4.023,
+      "bytes_per_event": 824,
+      "per_type_bytes": {
+        "GRAPH_START": 308,
+        "LLM_CALL": 1072.3,
+        "GRAPH_END": 595
+      },
+      "ipfs_bytes": 4120,
+      "ipfs_kb": 4.023,
+      "on_chain_bytes": 114,
+      "merkle_bytes": 16,
+      "savings_pct": 97.23,
+      "merkle_root": "8a142141678d5dca"
+    },
+    "risk": {
+      "score": 0,
+      "reasons": []
+    },
+    "anchoring": {
+      "policy": "MINIMAL",
+      "description": "Merkle root only",
+      "risk_score": 0,
+      "on_chain_bytes": 35,
+      "on_chain_kb": 0.0342,
+      "n_flagged": 0
+    }
+  },
+  "W2_failure": {
+    "name": "W2_failure",
+    "display": "W2 Failure",
+    "storage": {
+      "n_events": 5,
+      "total_bytes": 4333,
+      "total_kb": 4.231,
+      "bytes_per_event": 866.6,
+      "per_type_bytes": {
+        "GRAPH_START": 309,
+        "LLM_CALL": 1119.7,
+        "GRAPH_END": 665
+      },
+      "ipfs_bytes": 4333,
+      "ipfs_kb": 4.231,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 97.35,
+      "merkle_root": "d58d60a79ee0f858"
+    },
+    "risk": {
+      "score": 0,
+      "reasons": []
+    },
+    "anchoring": {
+      "policy": "MINIMAL",
+      "description": "Merkle root only",
+      "risk_score": 0,
+      "on_chain_bytes": 35,
+      "on_chain_kb": 0.0342,
+      "n_flagged": 0
+    }
+  },
+  "W3_normal": {
+    "name": "W3_normal",
+    "display": "W3 Normal",
+    "storage": {
+      "n_events": 8,
+      "total_bytes": 7653,
+      "total_kb": 7.474,
+      "bytes_per_event": 956.6,
+      "per_type_bytes": {
+        "GRAPH_START": 338,
+        "LLM_CALL": 1247.7,
+        "TOOL_CALL": 921.3,
+        "GRAPH_END": 808
+      },
+      "ipfs_bytes": 7653,
+      "ipfs_kb": 7.474,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 98.5,
+      "merkle_root": "d6fda416cae72101"
+    },
+    "risk": {
+      "score": 0,
+      "reasons": []
+    },
+    "anchoring": {
+      "policy": "MINIMAL",
+      "description": "Merkle root only",
+      "risk_score": 0,
+      "on_chain_bytes": 35,
+      "on_chain_kb": 0.0342,
+      "n_flagged": 0
+    }
+  },
+  "W3_failure": {
+    "name": "W3_failure",
+    "display": "W3 Failure",
+    "storage": {
+      "n_events": 8,
+      "total_bytes": 7660,
+      "total_kb": 7.48,
+      "bytes_per_event": 957.5,
+      "per_type_bytes": {
+        "GRAPH_START": 338,
+        "LLM_CALL": 1249,
+        "TOOL_CALL": 921.3,
+        "GRAPH_END": 811
+      },
+      "ipfs_bytes": 7660,
+      "ipfs_kb": 7.48,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 98.5,
+      "merkle_root": "fd561de450a845d3"
+    },
+    "risk": {
+      "score": 0,
+      "reasons": []
+    },
+    "anchoring": {
+      "policy": "MINIMAL",
+      "description": "Merkle root only",
+      "risk_score": 0,
+      "on_chain_bytes": 35,
+      "on_chain_kb": 0.0342,
+      "n_flagged": 0
+    }
+  },
+  "W4_normal": {
+    "name": "W4_normal",
+    "display": "W4 Normal",
+    "storage": {
+      "n_events": 7,
+      "total_bytes": 4714,
+      "total_kb": 4.604,
+      "bytes_per_event": 673.4,
+      "per_type_bytes": {
+        "GRAPH_START": 451,
+        "LLM_CALL": 881.3,
+        "TOOL_CALL": 644,
+        "GRAPH_END": 331
+      },
+      "ipfs_bytes": 4714,
+      "ipfs_kb": 4.604,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 97.56,
+      "merkle_root": "b0e27a69d32e650c"
+    },
+    "risk": {
+      "score": 0,
+      "reasons": []
+    },
+    "anchoring": {
+      "policy": "MINIMAL",
+      "description": "Merkle root only",
+      "risk_score": 0,
+      "on_chain_bytes": 35,
+      "on_chain_kb": 0.0342,
+      "n_flagged": 0
+    }
+  },
+  "W4_failure": {
+    "name": "W4_failure",
+    "display": "W4 Failure",
+    "storage": {
+      "n_events": 13,
+      "total_bytes": 10362,
+      "total_kb": 10.119,
+      "bytes_per_event": 797.1,
+      "per_type_bytes": {
+        "GRAPH_START": 451,
+        "LLM_CALL": 996.6,
+        "TOOL_CALL": 648.2,
+        "GRAPH_END": 342
+      },
+      "ipfs_bytes": 10362,
+      "ipfs_kb": 10.119,
+      "on_chain_bytes": 115,
+      "merkle_bytes": 16,
+      "savings_pct": 98.89,
+      "merkle_root": "465d0facd93c6b32"
+    },
+    "risk": {
+      "score": 3,
+      "reasons": [
+        "High event count (13)",
+        "FAILED_MAX_ITER detected"
+      ]
+    },
+    "anchoring": {
+      "policy": "STANDARD",
+      "description": "Merkle root + 0 flagged event hashes",
+      "risk_score": 3,
+      "on_chain_bytes": 57,
+      "on_chain_kb": 0.0557,
+      "n_flagged": 0
+    }
+  }
+}

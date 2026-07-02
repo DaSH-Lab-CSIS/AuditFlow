@@ -1,0 +1,130 @@
+{
+  "W1_email": {
+    "workflow": "W1_email",
+    "model": "openai/gpt-4o-mini",
+    "n_runs": 30,
+    "with_auditflow": {
+      "mean": 4181.106,
+      "median": 3658.684,
+      "stdev": 2392.087,
+      "p95": 7822.268,
+      "min": 2606.917,
+      "max": 15611.019,
+      "n": 30
+    },
+    "without_auditflow": {
+      "mean": 4023.292,
+      "median": 3225.418,
+      "stdev": 1550.247,
+      "p95": 6981.547,
+      "min": 2579.089,
+      "max": 8294.749,
+      "n": 30
+    },
+    "overhead_ms": 157.814,
+    "overhead_pct": 3.92,
+    "p_value": 0.762973,
+    "significant": false,
+    "components": {
+      "interception_ms": 0.0322,
+      "serialisation_ms": 0.0769,
+      "io_ms": 1.6566
+    }
+  },
+  "W2_codereview": {
+    "workflow": "W2_codereview",
+    "model": "openai/gpt-4o-mini",
+    "n_runs": 30,
+    "with_auditflow": {
+      "mean": 23501.62,
+      "median": 22118.895,
+      "stdev": 9072.832,
+      "p95": 28454.65,
+      "min": 16891.524,
+      "max": 68374.628,
+      "n": 30
+    },
+    "without_auditflow": {
+      "mean": 21503.128,
+      "median": 21162.871,
+      "stdev": 2886.081,
+      "p95": 24947.235,
+      "min": 15298.044,
+      "max": 29084.156,
+      "n": 30
+    },
+    "overhead_ms": 1998.492,
+    "overhead_pct": 9.29,
+    "p_value": 0.2581,
+    "significant": false,
+    "components": {
+      "interception_ms": 0.0329,
+      "serialisation_ms": 0.0819,
+      "io_ms": 2.3216
+    }
+  },
+  "W3_research": {
+    "workflow": "W3_research",
+    "model": "openai/gpt-4o-mini",
+    "n_runs": 30,
+    "with_auditflow": {
+      "mean": 8801.404,
+      "median": 9015.232,
+      "stdev": 1321.182,
+      "p95": 10998.754,
+      "min": 6486.162,
+      "max": 11057.944,
+      "n": 30
+    },
+    "without_auditflow": {
+      "mean": 9783.913,
+      "median": 9551.39,
+      "stdev": 1537.977,
+      "p95": 13487.679,
+      "min": 7775.461,
+      "max": 14095.991,
+      "n": 30
+    },
+    "overhead_ms": -982.509,
+    "overhead_pct": -10.04,
+    "p_value": 0.010298,
+    "significant": true,
+    "components": {
+      "interception_ms": 0.0279,
+      "serialisation_ms": 0.0713,
+      "io_ms": 2.1926
+    }
+  },
+  "W4_coding": {
+    "workflow": "W4_coding",
+    "model": "openai/gpt-4o-mini",
+    "n_runs": 30,
+    "with_auditflow": {
+      "mean": 7522.022,
+      "median": 7456.197,
+      "stdev": 847.279,
+      "p95": 8816.229,
+      "min": 6122.117,
+      "max": 9804.896,
+      "n": 30
+    },
+    "without_auditflow": {
+      "mean": 7735.479,
+      "median": 7301.95,
+      "stdev": 1124.151,
+      "p95": 10239.088,
+      "min": 6348.457,
+      "max": 10854.15,
+      "n": 30
+    },
+    "overhead_ms": -213.457,
+    "overhead_pct": -2.76,
+    "p_value": 0.409893,
+    "significant": false,
+    "components": {
+      "interception_ms": 0.0438,
+      "serialisation_ms": 0.0778,
+      "io_ms": 1.6104
+    }
+  }
+}

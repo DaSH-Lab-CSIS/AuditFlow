@@ -1,0 +1,20 @@
+[
+  {
+    "span_name": "w1_email_triage_workflow",
+    "duration_ms": 4810.286,
+    "status": "StatusCode.UNSET",
+    "attributes": {
+      "workflow.name": "W1_EmailTriage",
+      "workflow.type": "single_agent",
+      "workflow.run_id": "8af87aba-bf08-4f66-aedd-086681f5fcbd",
+      "workflow.status": "SUCCESS",
+      "workflow.result_preview": "I have successfully archived all newsletter emails. If you need any further assistance, feel free to ask!"
+    },
+    "prompt_context": "NOT CAPTURED",
+    "llm_reasoning": "NOT CAPTURED",
+    "tool_input": "NOT CAPTURED",
+    "tool_output": "NOT CAPTURED",
+    "causal_parent_id": "NOT CAPTURED",
+    "cryptographic_hash": "NOT CAPTURED"
+  }
+]
