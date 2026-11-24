@@ -43,7 +43,6 @@ pydantic==2.12.5
 pydantic_core==2.41.5
 python-dotenv==1.2.3
 PyYAML==6.0.3
--e git+https://github.com/DaSH-Lab-CSIS/AuditFlow.git@2d1a95e0b9db2800aaf9947cf8f22970ce909a34#egg=react_agent&subdirectory=auditflow_w1\react-agent-main
 regex==2026.9.29
 requests==2.34.2
 requests-toolbelt==1.0.0
