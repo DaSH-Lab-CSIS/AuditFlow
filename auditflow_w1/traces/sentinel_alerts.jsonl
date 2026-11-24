@@ -1,0 +1,1 @@
+{"alert_type": "IRREVERSIBLE_ACTION", "event_id": "79694a1a-6043-4be5-aba2-ebe0fd8f1e74", "run_id": "14759f1e-a4c7-4efa-950e-9fac7b9665de", "seq": 6, "node": "tools", "reason": "tool 'delete_emails' is in high-risk tool set; payload contains 'irreversible'", "timestamp": 1790853644.4152}

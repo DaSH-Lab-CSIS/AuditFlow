@@ -6,6 +6,10 @@ import time
 import hashlib
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from sentinel.sentinel import sentinel
+
 LOG_FILE = Path("traces/trace.jsonl")
 LOG_FILE.parent.mkdir(exist_ok=True)
 
@@ -37,6 +41,8 @@ def _new_event(event_type: str, node: str, input_data: dict, output_data: dict) 
     ).hexdigest()[:16]
 
     _last_event_id = event_id
+
+    sentinel.on_event(event)
 
     # write to file
     with open(LOG_FILE, "a") as f:
