@@ -27,9 +27,10 @@ Requires Python 3.11.
 python -m venv venv
 # Windows: venv\Scripts\activate      Linux/macOS: source venv/bin/activate
 pip install -r requirements.txt
+pip install -e auditflow_w1/react-agent-main   # required for W1 (run from the repository root)
 ```
 
-Copy `.env.example` to `.env` in the folder you run from and add your keys. The workflows use GPT-4o-mini through the OpenAI API. W3 additionally needs a Tavily key. The overhead experiment (`experiment1_overhead.py`) uses a local Ollama `llama3.2` model.
+Copy .env.example to .env in the repository root and add your keys. The workflows use GPT-4o-mini through the OpenAI API. W3 additionally needs a Tavily key. The overhead experiment (`experiment1_overhead.py`) uses a local Ollama `llama3.2` model.
 
 ## Running
 
